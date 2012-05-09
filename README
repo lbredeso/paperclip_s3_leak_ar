@@ -1,0 +1,1 @@
+This project demonstrates a memory leak when loading S3 credentials for Paperclip from a YAML config file.
