@@ -34,4 +34,8 @@ PaperclipS3LeakAr::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  ENV['S3_BUCKET_NAME'] = 'paperclip-s3'
+  ENV['AWS_ACCESS_KEY_ID'] = 'your-access-key'
+  ENV['AWS_SECRET_ACCESS_KEY'] = 'your-secret-access-key'
 end
